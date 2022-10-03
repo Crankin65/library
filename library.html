@@ -57,7 +57,17 @@
       <label for="bookAuthor">Book Author</label>
       <input type="text" placeholder="Book Author" id="bookAuthor" name="bookAuthor">
   
-      <input type="submit" value="Submit!">
+      <label for="numberOfPages">Number of Pages</label>
+      <input type="text" placeholder="Number of Pages" id="numberOfPages" name="numberOfPages">
+
+      <label for="readStatus">Read Status</label>
+      <select id="readStatus" name="readStatus">
+        <option value=""></option>
+        <option value="Read">Read</option>
+        <option value="Not Read">Not Read</option>
+      </select>
+
+      <input type="submit" value="New Book">
 
     </form>
 
@@ -68,6 +78,8 @@
           <th scope="col">#</th>
           <th scope="col">Title</th>
           <th scope="col">Author</th>
+          <th scope="col">Number of Pages</th>
+          <th scope="col">Read Status</th>
         </tr>
       </thead>
       <tbody>
